@@ -1,8 +1,5 @@
 ﻿using Exico.Shopify.Data;
 using Exico.Shopify.Data.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Test.Exico.Shopify.Web.Core
 {
