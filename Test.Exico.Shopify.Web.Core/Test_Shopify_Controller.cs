@@ -1206,7 +1206,8 @@ namespace Test.Exico.Shopify.Web.Core
                   new Mock<IUserClaimsPrincipalFactory<AspNetUser>>().Object,
                   new Mock<IOptions<IdentityOptions>>().Object,
                   new Mock<ILogger<SignInManager<AspNetUser>>>().Object,
-                  new Mock<IAuthenticationSchemeProvider>().Object)
+                  new Mock<IAuthenticationSchemeProvider>().Object,
+                  new Mock<IUserConfirmation<AspNetUser>>().Object)
         {
 
 
